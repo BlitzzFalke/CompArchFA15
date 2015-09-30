@@ -1,18 +1,152 @@
-do hw1.do
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+cd C:/CompArchFA15/HW/HW2
+cd C:/!Working
+do 4bitadder.do
 # Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 23:11:29 on Sep 17,2015
-# vlog -reportprogress 300 -work work hw1.v 
-# -- Compiling module hw1test
+# Start time: 19:42:07 on Sep 29,2015
+# vlog -reportprogress 300 -work work multiplexer.v decoder.v adder.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# 
+# End time: 19:42:07 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./4bitadder.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work multiplexer.v decoder.v adder.v"
+do 4bitadder.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:42:31 on Sep 29,2015
+# vlog -reportprogress 300 -work work multiplexer.v decoder.v 4bitadder.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# 
+# End time: 19:42:31 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./4bitadder.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work multiplexer.v decoder.v 4bitadder.v"
+do 4bitadder.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:43:47 on Sep 29,2015
+# vlog -reportprogress 300 -work work 4bitadder.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# 
+# End time: 19:43:47 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./4bitadder.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work 4bitadder.v"
+cd C:/!Working
+vlib work
+vmap work work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Copying C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+do 4bitadder.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:46:51 on Sep 29,2015
+# vlog -reportprogress 300 -work work 4bitadder.v 
+# -- Compiling module structural4bitFullAdder
+# -- Compiling module testFullAdder
+# ** Error: (vlog-13069) 4bitadder.v(43): near "a1": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# 
+# ** Error: (vlog-13069) 4bitadder.v(49): near "-": syntax error, unexpected '-'.
+# 
+# End time: 19:46:51 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./4bitadder.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work 4bitadder.v"
+do 4bitadder.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:49:09 on Sep 29,2015
+# vlog -reportprogress 300 -work work 4bitadder.v 
+# -- Compiling module structural4bitFullAdder
+# -- Compiling module testFullAdder
 # 
 # Top level modules:
-# 	hw1test
-# End time: 23:11:29 on Sep 17,2015, Elapsed time: 0:00:00
+# 	testFullAdder
+# End time: 19:49:09 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 19:49:10 on Sep 29,2015
+# Loading work.testFullAdder
+# Loading work.structural4bitFullAdder
+# ** Error: invalid command name "sim:/testFullAdder/sum1"
+# Error in macro ./4bitadder.do line 15
+# invalid command name "sim:/testFullAdder/sum1"
+#     while executing
+# "sim:/testFullAdder/sum1 "
+do 4bitadder.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:50:16 on Sep 29,2015
+# vlog -reportprogress 300 -work work 4bitadder.v 
+# -- Compiling module structural4bitFullAdder
+# -- Compiling module testFullAdder
+# 
+# Top level modules:
+# 	testFullAdder
+# End time: 19:50:16 on Sep 29,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 23:11:30 on Sep 17,2015
-# Loading work.hw1test
-# A B | ~A ~B | ~(AB) ~A+~B | ~(A+B) ~A~B 
-# 0 0 |  1  1 |   1     1   |   1      1 
-# 0 1 |  1  0 |   1     1   |   0      0 
-# 1 0 |  0  1 |   1     1   |   0      0 
-# 1 1 |  0  0 |   0     0   |   0      0 
+# Start time: 19:50:16 on Sep 29,2015
+# Loading work.testFullAdder
+# Loading work.structural4bitFullAdder
+# ** Error: (vish-4014) No objects found matching 'run'.
+# Missing signal name or pattern.
+# Error in macro ./4bitadder.do line 18
+# (vish-4014) No objects found matching 'run'.
+# Missing signal name or pattern.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/testFullAdder/carryin0 \
+# sim:/testFullAdder/a0 \
+# sim:/testFullAdder/a1 \
+# sim:/testFullAdder/a2 \
+# sim:/testFullA..."
+do 4bitadder.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:51:31 on Sep 29,2015
+# vlog -reportprogress 300 -work work 4bitadder.v 
+# -- Compiling module structural4bitFullAdder
+# -- Compiling module testFullAdder
+# 
+# Top level modules:
+# 	testFullAdder
+# End time: 19:51:31 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:51:31 on Sep 29,2015
+# Loading work.testFullAdder
+# Loading work.structural4bitFullAdder
+# Cin A B |Sum Cout| Expected Output
+# 0  0000  0000 |  0000  0  | All false
+# 0 ns
+# 1050 ns
