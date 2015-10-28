@@ -216,10 +216,5 @@ input[31:0]     input0, input1, input2, input3, input4, input5, input6, input7, 
 endmodule
 
 
-  // These two lines are clearly wrong.  They are included to showcase how the 
-  // test harness works. Delete them after you understand the testing process, 
-  // and replace them with your actual code.
-  assign ReadData1 = 42;
-  assign ReadData2 = 42;
 
 endmodule
