@@ -1,0 +1,10 @@
+The goal of the decoder is to have a 32'bit bus with 31 0s and 1 1 when the enable = 1. The position
+of the 1 is determined by the address.
+
+Using behavioral this is achiveved by this line of code:
+
+assign out = enable<<address;
+
+because it is left shifting the enable (0 or 1) by the value of the address. If the enable is 0 the 
+result will always be a row of 32 os but if the enable is 1 the 1 will be in the position designated
+by the address. So if enable = 1 and address = 5, the result = 00000000000000000000000000100000.

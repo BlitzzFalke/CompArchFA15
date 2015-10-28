@@ -1,81 +1,39 @@
 # Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
-cd C:/CompArchFA15/HW/HW2
-cd C:/!Working
-do 4bitadder.do
+cd C:/
+cd Labs
+cd Lab1
+cd Structural
+# reading modelsim.ini
+do Final_MarieCaroline.do
 # Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:42:07 on Sep 29,2015
-# vlog -reportprogress 300 -work work multiplexer.v decoder.v adder.v 
-# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
-# 
-# End time: 19:42:07 on Sep 29,2015, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-# Error in macro ./4bitadder.do line 1
-# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-#     while executing
-# "vlog -reportprogress 300 -work work multiplexer.v decoder.v adder.v"
-do 4bitadder.do
-# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:42:31 on Sep 29,2015
-# vlog -reportprogress 300 -work work multiplexer.v decoder.v 4bitadder.v 
-# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
-# 
-# End time: 19:42:31 on Sep 29,2015, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-# Error in macro ./4bitadder.do line 1
-# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-#     while executing
-# "vlog -reportprogress 300 -work work multiplexer.v decoder.v 4bitadder.v"
-do 4bitadder.do
-# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:43:47 on Sep 29,2015
-# vlog -reportprogress 300 -work work 4bitadder.v 
-# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
-# 
-# End time: 19:43:47 on Sep 29,2015, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-# Error in macro ./4bitadder.do line 1
-# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-#     while executing
-# "vlog -reportprogress 300 -work work 4bitadder.v"
-cd C:/!Working
-vlib work
-vmap work work
-# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
-# vmap -modelsim_quiet work work 
-# Copying C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini
-# Modifying modelsim.ini
-# ** Warning: Copied C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini.
-#          Updated modelsim.ini.
-do 4bitadder.do
-# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:46:51 on Sep 29,2015
-# vlog -reportprogress 300 -work work 4bitadder.v 
-# -- Compiling module structural4bitFullAdder
-# -- Compiling module testFullAdder
-# ** Error: (vlog-13069) 4bitadder.v(43): near "a1": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
-# 
-# ** Error: (vlog-13069) 4bitadder.v(49): near "-": syntax error, unexpected '-'.
-# 
-# End time: 19:46:51 on Sep 29,2015, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-# Error in macro ./4bitadder.do line 1
-# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
-#     while executing
-# "vlog -reportprogress 300 -work work 4bitadder.v"
-do 4bitadder.do
-# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:49:09 on Sep 29,2015
-# vlog -reportprogress 300 -work work 4bitadder.v 
-# -- Compiling module structural4bitFullAdder
-# -- Compiling module testFullAdder
+# Start time: 01:31:46 on Oct 16,2015
+# vlog -reportprogress 300 -work work for_loop_test_jdilleredit.v 
+# -- Compiling module ALU
+# -- Compiling module ALUcontrolLUT
+# -- Compiling module structMux
+# -- Compiling module and32bit
+# -- Compiling module or32bit
+# -- Compiling module nand32bit
+# -- Compiling module nor32bit
+# -- Compiling module xor32bit
+# -- Compiling module FullAddSubtract32bit
+# -- Compiling module SLT32bit
+# -- Compiling module ZeroFlag32bit
+# -- Compiling module behavioralFullAdder
+# -- Compiling module behavioralFullSubtractor
+# -- Compiling module behavioralFullSlt
+# -- Compiling module behavioralFullAnd
+# -- Compiling module behavioralFullOr
+# -- Compiling module behavioralFullXor
+# -- Compiling module behavioralFullNand
+# -- Compiling module behavioralFullNor
+# -- Compiling module test_looping
 # 
 # Top level modules:
-# 	testFullAdder
-# End time: 19:49:09 on Sep 29,2015, Elapsed time: 0:00:00
+# 	behavioralFullAdder
+# 	behavioralFullSubtractor
+# 	test_looping
+# End time: 01:31:46 on Oct 16,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # //  ModelSim PE Student Edition 10.4a Apr  7 2015 
 # //
@@ -96,57 +54,361 @@ do 4bitadder.do
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
 # vsim -gui 
-# Start time: 19:49:10 on Sep 29,2015
-# Loading work.testFullAdder
-# Loading work.structural4bitFullAdder
-# ** Error: invalid command name "sim:/testFullAdder/sum1"
-# Error in macro ./4bitadder.do line 15
-# invalid command name "sim:/testFullAdder/sum1"
-#     while executing
-# "sim:/testFullAdder/sum1 "
-do 4bitadder.do
-# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:50:16 on Sep 29,2015
-# vlog -reportprogress 300 -work work 4bitadder.v 
-# -- Compiling module structural4bitFullAdder
-# -- Compiling module testFullAdder
-# 
-# Top level modules:
-# 	testFullAdder
-# End time: 19:50:16 on Sep 29,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 19:50:16 on Sep 29,2015
-# Loading work.testFullAdder
-# Loading work.structural4bitFullAdder
-# ** Error: (vish-4014) No objects found matching 'run'.
-# Missing signal name or pattern.
-# Error in macro ./4bitadder.do line 18
-# (vish-4014) No objects found matching 'run'.
-# Missing signal name or pattern.
-#     while executing
-# "add wave -position insertpoint  \
-# sim:/testFullAdder/carryin0 \
-# sim:/testFullAdder/a0 \
-# sim:/testFullAdder/a1 \
-# sim:/testFullAdder/a2 \
-# sim:/testFullA..."
-do 4bitadder.do
-# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:51:31 on Sep 29,2015
-# vlog -reportprogress 300 -work work 4bitadder.v 
-# -- Compiling module structural4bitFullAdder
-# -- Compiling module testFullAdder
-# 
-# Top level modules:
-# 	testFullAdder
-# End time: 19:51:31 on Sep 29,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 19:51:31 on Sep 29,2015
-# Loading work.testFullAdder
-# Loading work.structural4bitFullAdder
-# Cin A B |Sum Cout| Expected Output
-# 0  0000  0000 |  0000  0  | All false
+# Start time: 01:31:47 on Oct 16,2015
+# Loading work.test_looping
+# Loading work.ALU
+# Loading work.ALUcontrolLUT
+# Loading work.and32bit
+# Loading work.or32bit
+# Loading work.nand32bit
+# Loading work.nor32bit
+# Loading work.xor32bit
+# Loading work.FullAddSubtract32bit
+# Loading work.SLT32bit
+# Loading work.ZeroFlag32bit
+# Loading work.structMux
+# Loading work.behavioralFullAnd
+# Loading work.behavioralFullOr
+# Loading work.behavioralFullXor
+# Loading work.behavioralFullNand
+# Loading work.behavioralFullNor
+# Loading work.behavioralFullSlt
+# this is the SLT operation
+# operandA   operandB  | muxindex  invertB |  result  | behavioral
+# 0000000f   00000001  |    2         0    | 0000000X | 00000000
+# ffffffff   fffffff0  |    2         0    | 00000001 | 00000000
+# 0fffffff   f0000000  |    2         0    | 00000000 | 00000001
+# ffffffff   ffffffff  |    2         0    | 00000000 | 00000000
+# this is the AND operation
+# operandA   operandB  | muxindex  invertB |  result  | behavioral
+# ffffffff   ffffffff  |    3         0    | ffffffff | ffffffff
+# 00000000   00000000  |    3         0    | 00000000 | 00000000
+# 00000000   ffffffff  |    3         0    | 00000000 | 00000000
+# ffffffff   00000000  |    3         0    | 00000000 | 00000000
+# this is the OR operation
+# operandA   operandB  | muxindex  invertB |  result  | behavioral
+# ffffffff   ffffffff  |    6         0    | ffffffff | ffffffff
+# 00000000   00000000  |    6         0    | 00000000 | 00000000
+# 00000000   ffffffff  |    6         0    | ffffffff | ffffffff
+# ffffffff   00000000  |    6         0    | ffffffff | ffffffff
+# this is the NAND operation
+# operandA   operandB  | muxindex  invertB |  result  | behavioral
+# ffffffff   ffffffff  |    4         0    | 00000000 | 00000000
+# 00000000   00000000  |    4         0    | ffffffff | ffffffff
+# 00000000   ffffffff  |    4         0    | ffffffff | ffffffff
+# ffffffff   00000000  |    4         0    | ffffffff | ffffffff
+# this is the NOR operation
+# operandA   operandB  | muxindex  invertB |  result  | behavioral
+# ffffffff   ffffffff  |    5         0    | 00000000 | 00000000
+# 00000000   00000000  |    5         0    | ffffffff | ffffffff
+# 00000000   ffffffff  |    5         0    | 00000000 | 00000000
+# ffffffff   00000000  |    5         0    | 00000000 | 00000000
+# this is the XOR operation
+# operandA   operandB  | muxindex  invertB |  result  | behavioral
+# ffffffff   ffffffff  |    1         0    | 00000000 | 00000000
+# 00000000   00000000  |    1         0    | 00000000 | 00000000
+# 00000000   ffffffff  |    1         0    | ffffffff | ffffffff
+# ffffffff   00000000  |    1         0    | ffffffff | ffffffff
 # 0 ns
-# 1050 ns
+# 7560 ns
+do Final_MarieCaroline.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 01:33:08 on Oct 16,2015
+# vlog -reportprogress 300 -work work for_loop_test_jdilleredit.v 
+# -- Compiling module ALU
+# -- Compiling module ALUcontrolLUT
+# -- Compiling module structMux
+# -- Compiling module and32bit
+# -- Compiling module or32bit
+# -- Compiling module nand32bit
+# -- Compiling module nor32bit
+# -- Compiling module xor32bit
+# -- Compiling module FullAddSubtract32bit
+# -- Compiling module SLT32bit
+# -- Compiling module ZeroFlag32bit
+# -- Compiling module behavioralFullAdder
+# -- Compiling module behavioralFullSubtractor
+# -- Compiling module behavioralFullSlt
+# -- Compiling module behavioralFullAnd
+# -- Compiling module behavioralFullOr
+# -- Compiling module behavioralFullXor
+# -- Compiling module behavioralFullNand
+# -- Compiling module behavioralFullNor
+# -- Compiling module test_looping
+# 
+# Top level modules:
+# 	behavioralFullAdder
+# 	behavioralFullSubtractor
+# 	test_looping
+# End time: 01:33:08 on Oct 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 01:33:09 on Oct 16,2015
+# Loading work.test_looping
+# Loading work.ALU
+# Loading work.ALUcontrolLUT
+# Loading work.and32bit
+# Loading work.or32bit
+# Loading work.nand32bit
+# Loading work.nor32bit
+# Loading work.xor32bit
+# Loading work.FullAddSubtract32bit
+# Loading work.SLT32bit
+# Loading work.ZeroFlag32bit
+# Loading work.structMux
+# Loading work.behavioralFullAnd
+# Loading work.behavioralFullOr
+# Loading work.behavioralFullXor
+# Loading work.behavioralFullNand
+# Loading work.behavioralFullNor
+# Loading work.behavioralFullSlt
+# ** Warning: (vsim-3017) for_loop_test_jdilleredit.v(1013): [TFMPC] - Too few port connections. Expected 5, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/andB File: for_loop_test_jdilleredit.v
+# ** Error (suppressible): (vsim-3053) for_loop_test_jdilleredit.v(1013): Illegal output or inout port connection for port 'carryout'.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/andB File: for_loop_test_jdilleredit.v
+# ** Warning: (vsim-3015) for_loop_test_jdilleredit.v(1013): [PCDPC] - Port size (1) does not match connection size (32) for port 'carryout'. The port definition is at: for_loop_test_jdilleredit.v(903).
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/andB File: for_loop_test_jdilleredit.v
+# ** Warning: (vsim-3722) for_loop_test_jdilleredit.v(1013): [TFMPC] - Missing connection for port 'b'.
+# ** Warning: (vsim-3722) for_loop_test_jdilleredit.v(1013): [TFMPC] - Missing connection for port 'carryin'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Final_MarieCaroline.do PAUSED at line 2
+do Final_MarieCaroline.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 01:34:34 on Oct 16,2015
+# vlog -reportprogress 300 -work work FInal_MarieCaroline.v 
+# -- Compiling module ALU
+# -- Compiling module ALUcontrolLUT
+# -- Compiling module structMux
+# -- Compiling module and32bit
+# -- Compiling module or32bit
+# -- Compiling module nand32bit
+# -- Compiling module nor32bit
+# -- Compiling module xor32bit
+# -- Compiling module FullAddSubtract32bit
+# -- Compiling module SLT32bit
+# -- Compiling module ZeroFlag32bit
+# -- Compiling module behavioralFullAdder
+# -- Compiling module behavioralFullSubtractor
+# -- Compiling module behavioralFullSlt
+# -- Compiling module behavioralFullAnd
+# -- Compiling module behavioralFullOr
+# -- Compiling module behavioralFullXor
+# -- Compiling module behavioralFullNand
+# -- Compiling module behavioralFullNor
+# -- Compiling module test_looping
+# 
+# Top level modules:
+# 	behavioralFullSubtractor
+# 	behavioralFullSlt
+# 	behavioralFullOr
+# 	behavioralFullXor
+# 	behavioralFullNand
+# 	behavioralFullNor
+# 	test_looping
+# End time: 01:34:34 on Oct 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Loading work.test_looping
+# Loading work.ALU
+# Loading work.ALUcontrolLUT
+# Loading work.and32bit
+# Loading work.or32bit
+# Loading work.nand32bit
+# Loading work.nor32bit
+# Loading work.xor32bit
+# Loading work.FullAddSubtract32bit
+# Loading work.SLT32bit
+# Loading work.ZeroFlag32bit
+# Loading work.structMux
+# Loading work.behavioralFullAdder
+# Loading work.behavioralFullAnd
+# ** Fatal: (vsim-3365) FInal_MarieCaroline.v(971): Too many port connections. Expected 3, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/adder0 File: FInal_MarieCaroline.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Final_MarieCaroline.do PAUSED at line 2
+cd Structural
+# couldn't change working directory to "Structural": no such file or directory
+do Final_MarieCaroline.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 01:34:55 on Oct 16,2015
+# vlog -reportprogress 300 -work work Final_MarieCaroline.v 
+# -- Compiling module ALU
+# -- Compiling module ALUcontrolLUT
+# -- Compiling module structMux
+# -- Compiling module and32bit
+# -- Compiling module or32bit
+# -- Compiling module nand32bit
+# -- Compiling module nor32bit
+# -- Compiling module xor32bit
+# -- Compiling module FullAddSubtract32bit
+# -- Compiling module SLT32bit
+# -- Compiling module ZeroFlag32bit
+# -- Compiling module behavioralFullAdder
+# -- Compiling module behavioralFullSubtractor
+# -- Compiling module behavioralFullSlt
+# -- Compiling module behavioralFullAnd
+# -- Compiling module behavioralFullOr
+# -- Compiling module behavioralFullXor
+# -- Compiling module behavioralFullNand
+# -- Compiling module behavioralFullNor
+# -- Compiling module test_looping
+# 
+# Top level modules:
+# 	behavioralFullSubtractor
+# 	behavioralFullSlt
+# 	behavioralFullOr
+# 	behavioralFullXor
+# 	behavioralFullNand
+# 	behavioralFullNor
+# 	test_looping
+# End time: 01:34:56 on Oct 16,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Loading work.test_looping
+# Loading work.ALU
+# Loading work.ALUcontrolLUT
+# Loading work.and32bit
+# Loading work.or32bit
+# Loading work.nand32bit
+# Loading work.nor32bit
+# Loading work.xor32bit
+# Loading work.FullAddSubtract32bit
+# Loading work.SLT32bit
+# Loading work.ZeroFlag32bit
+# Loading work.structMux
+# Loading work.behavioralFullAdder
+# Loading work.behavioralFullAnd
+# ** Warning: (vsim-3017) Final_MarieCaroline.v(977): [TFMPC] - Too few port connections. Expected 5, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/and0 File: Final_MarieCaroline.v
+# ** Error (suppressible): (vsim-3053) Final_MarieCaroline.v(977): Illegal output or inout port connection for port 'carryout'.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/and0 File: Final_MarieCaroline.v
+# ** Warning: (vsim-3015) Final_MarieCaroline.v(977): [PCDPC] - Port size (1) does not match connection size (32) for port 'carryout'. The port definition is at: Final_MarieCaroline.v(899).
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/and0 File: Final_MarieCaroline.v
+# ** Warning: (vsim-3722) Final_MarieCaroline.v(977): [TFMPC] - Missing connection for port 'b'.
+# ** Warning: (vsim-3722) Final_MarieCaroline.v(977): [TFMPC] - Missing connection for port 'carryin'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Final_MarieCaroline.do PAUSED at line 2
+do Final_MarieCaroline.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 01:35:38 on Oct 16,2015
+# vlog -reportprogress 300 -work work Final_MarieCaroline.v 
+# -- Compiling module ALU
+# -- Compiling module ALUcontrolLUT
+# -- Compiling module structMux
+# -- Compiling module and32bit
+# -- Compiling module or32bit
+# -- Compiling module nand32bit
+# -- Compiling module nor32bit
+# -- Compiling module xor32bit
+# -- Compiling module FullAddSubtract32bit
+# -- Compiling module SLT32bit
+# -- Compiling module ZeroFlag32bit
+# -- Compiling module behavioralFullAdder
+# -- Compiling module behavioralFullSubtractor
+# -- Compiling module behavioralFullSlt
+# -- Compiling module behavioralFullAnd
+# -- Compiling module behavioralFullOr
+# -- Compiling module behavioralFullXor
+# -- Compiling module behavioralFullNand
+# -- Compiling module behavioralFullNor
+# -- Compiling module test_looping
+# 
+# Top level modules:
+# 	behavioralFullSubtractor
+# 	behavioralFullSlt
+# 	behavioralFullOr
+# 	behavioralFullXor
+# 	behavioralFullNand
+# 	behavioralFullNor
+# 	test_looping
+# End time: 01:35:38 on Oct 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Loading work.test_looping
+# Loading work.ALU
+# Loading work.ALUcontrolLUT
+# Loading work.and32bit
+# Loading work.or32bit
+# Loading work.nand32bit
+# Loading work.nor32bit
+# Loading work.xor32bit
+# Loading work.FullAddSubtract32bit
+# Loading work.SLT32bit
+# Loading work.ZeroFlag32bit
+# Loading work.structMux
+# Loading work.behavioralFullAdder
+# Loading work.behavioralFullAnd
+# ** Fatal: (vsim-3365) Final_MarieCaroline.v(971): Too many port connections. Expected 3, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/adder0 File: Final_MarieCaroline.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Final_MarieCaroline.do PAUSED at line 2
+cd Structural
+# couldn't change working directory to "Structural": no such file or directory
+do Final_MarieCaroline.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 01:37:45 on Oct 16,2015
+# vlog -reportprogress 300 -work work Final_MarieCaroline.v 
+# -- Compiling module ALU
+# -- Compiling module ALUcontrolLUT
+# -- Compiling module structMux
+# -- Compiling module and32bit
+# -- Compiling module or32bit
+# -- Compiling module nand32bit
+# -- Compiling module nor32bit
+# -- Compiling module xor32bit
+# -- Compiling module FullAddSubtract32bit
+# -- Compiling module SLT32bit
+# -- Compiling module ZeroFlag32bit
+# -- Compiling module behavioralFullAdder
+# -- Compiling module behavioralFullSubtractor
+# -- Compiling module behavioralFullSlt
+# -- Compiling module behavioralFullAnd
+# -- Compiling module behavioralFullOr
+# -- Compiling module behavioralFullXor
+# -- Compiling module behavioralFullNand
+# -- Compiling module behavioralFullNor
+# -- Compiling module test_looping
+# 
+# Top level modules:
+# 	behavioralFullSubtractor
+# 	behavioralFullSlt
+# 	behavioralFullOr
+# 	behavioralFullXor
+# 	behavioralFullNand
+# 	behavioralFullNor
+# 	test_looping
+# End time: 01:37:45 on Oct 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Loading work.test_looping
+# Loading work.ALU
+# Loading work.ALUcontrolLUT
+# Loading work.and32bit
+# Loading work.or32bit
+# Loading work.nand32bit
+# Loading work.nor32bit
+# Loading work.xor32bit
+# Loading work.FullAddSubtract32bit
+# Loading work.SLT32bit
+# Loading work.ZeroFlag32bit
+# Loading work.structMux
+# Loading work.behavioralFullAdder
+# Loading work.behavioralFullAnd
+# ** Warning: (vsim-3017) Final_MarieCaroline.v(977): [TFMPC] - Too few port connections. Expected 5, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/and0 File: Final_MarieCaroline.v
+# ** Error (suppressible): (vsim-3053) Final_MarieCaroline.v(977): Illegal output or inout port connection for port 'carryout'.
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/and0 File: Final_MarieCaroline.v
+# ** Warning: (vsim-3015) Final_MarieCaroline.v(977): [PCDPC] - Port size (1) does not match connection size (32) for port 'carryout'. The port definition is at: Final_MarieCaroline.v(899).
+#    Time: 0 ns  Iteration: 0  Instance: /test_looping/and0 File: Final_MarieCaroline.v
+# ** Warning: (vsim-3722) Final_MarieCaroline.v(977): [TFMPC] - Missing connection for port 'b'.
+# ** Warning: (vsim-3722) Final_MarieCaroline.v(977): [TFMPC] - Missing connection for port 'carryin'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Final_MarieCaroline.do PAUSED at line 2
